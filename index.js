@@ -4,4 +4,5 @@ module.exports = forEach
 
 function forEach(stream, iterator, finish) {
     stream.pipe(WriteStream(iterator, finish))
+    return stream
 }
