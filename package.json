@@ -1,0 +1,35 @@
+{
+  "name": "for-each-stream",
+  "version": "0.1.0",
+  "description": "Call an iterator for each chunk in the stream",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/for-each-stream.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/for-each-stream",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/for-each-stream/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "write-stream": "~0.4.1"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "read-stream": "~0.4.2"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/for-each-stream/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "tap --stderr --tap ./test"
+  }
+}
